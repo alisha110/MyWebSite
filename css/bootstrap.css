@@ -2555,11 +2555,14 @@ input[type="button"].btn-block {
 
 
 @font-face {
-    font-family: 'Yekan';
-    src:url('../css/font/Yekan.eot?#') format('eot'),
-    url('../css/font/Yekan.woff') format('woff'),
-    url('../css/font/Yekan.ttf') format('truetype');
+    font-family: 'B Yekan';
+    src:url('../css/font/BYekan.eot?#') format('eot'),
+    url('../css/font/BYekan.woff') format('woff'),
+    url('../css/font/BYekan.ttf') format('truetype');
 }
+
+
+
 
 
 

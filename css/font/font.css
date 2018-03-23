@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'B Yekan';
+  src: url('B Yekan.eot');
+  src: url('B Yekan.woff2') format('woff2'),
+       url('B Yekan.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BYekan';
+  src: url('BYekan.woff') format('woff'),
+       url('BYekan.ttf') format('truetype'),
+       url('BYekan.svg#BYekan') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
