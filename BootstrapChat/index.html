@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8"  dir="rtl">
+    <script src="js/jquery.min.js"></script>
+    <meta name="viewport"  content="width=device-width, initial-scale=1">
+</head>
+<body style="direction: rtl">
+<div class="main-section">
+    <div class="row border-chat">
+        <div class="col-md-12 col-sm-12 col-xs-12 first-section">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xs-6 right-first-section">
+                    <a href="#"><i class="fa fa-minus" aria-hidden="true" style="float: left"></i></a>
+                    <a href="#"><i class="fa fa-location-arrow" aria-hidden="true" style="float: left"></i></a>
+                </div>
+                <div class="col-md-8 col-sm-6 col-xs-6 left-first-section">
+                    <p>مشاوره</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row border-chat">
+        <div class="col-md-12 col-sm-12 col-xs-12 second-section">
+            <div class="chat-section">
+                <ul>
+                    <li class="chatli">
+                        <div class="left-chat">
+                            <img src="image/employee3.png">
+                            <div class="bubble">asdgasdhfasfdgfsadghfaghsdfghfadsgad</div>
+                        </div>
+                    </li>
+                    <li class="chatli">
+                        <div class="right-chat">
+
+
+                            <img src="image/custommer.png">
+                            <!--<textarea style="width: 70% ; border-style: none; resize: none;scroll-snap-type: none; word-break-wrap: break-word;">Lorem ipsum dolor sit ameeseruntajsdasdjhajkshdhasdhjahdkjhasd</textarea>-->
+<div class="bubble2">asdgasdhfasfdgfsadghfaghsdfghfadsgad</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row border-chat">
+        <div class="col-md-12 col-sm-12 col-xs-12 third-section">
+            <div class="text-bar">
+                <textarea class="txtmsg" cols="38" rows="2" onkeypress="sndmsg()" id="txtmsg"
+                          placeholder="پیام خود را اینجا وارد کنید"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".fa-minus").click(function () {
+            $('.main-section').toggleClass("open-more");
+        });
+        $('.main-section').toggleClass("");
+    });
+
+    function sndmsg() {
+        $('#txtmsg').keypress(function (e) {
+            if (e.which == '13') {
+                alert("enter pressed")
+            }
+            e.which = '';
+        });
+    }
+</script>
