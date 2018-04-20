@@ -978,7 +978,7 @@ echo "
 <script src='js/script.js'></script>
 <script>
 $('#btnsearch').click(function(){
-window.location.replace('http://localhost/winOt/Arillo/blue/search_list.html');
+window.location.replace('search_list.html');
 
 });
 
@@ -990,3 +990,7 @@ window.location.replace('http://localhost/winOt/Arillo/blue/search_list.html');
 </html>
 
 ";
+?>
+
+
+
